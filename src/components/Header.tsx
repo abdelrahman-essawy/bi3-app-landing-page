@@ -62,7 +62,7 @@ const Menu = () => {
                 href="#"
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                Call to action
+                Download App
               </a>
             </div>
           </nav>

@@ -5,8 +5,8 @@
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "Why Us",
+      "href": "why-us"
     },
     {
       "name": "Features",
@@ -27,9 +27,9 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "Your Ultimate",
+    "subtitle": "Selling Companion!",
+    "description": "Bye-bye hassle! Welcome to Bi3: the easiest way to sell your used items. Our cutting-edge app connects you with buyers nearby, for a selling experience like never before!",
     "img": "/assets/images/happyTeam.jpeg",
     "primaryAction": {
       "text": "Get started",
@@ -37,21 +37,36 @@
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "#"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Why Bi3?",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
+        "title": "Fast and Smart Selling",
+        "description": "Bi3 takes the stress out of selling your used items. Don’t wait for days or weeks to get a response. Our intelligent platform enables you to receive bids on your `Dash Zone` in real-time. List your item, and watch the bids roll in!",
         "img": "/assets/images/product1.jpg"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "title": "Localized Selling with Dash Zone",
+        "description": "When you use Bi3's `Dash Zone`, you tap into a vast network of potential buyers located within a 5-kilometer radius. Connect with your local community, make quick sales, and reduce the need for long-distance transactions.",
         "img": "/assets/images/product2.jpg"
+      },
+      {
+        "title": "Expanding Your Reach with Selling Zone",
+        "description": "Need to sell an item outside your radius? No worries! Bi3's `Selling Zone` lets you promote your items without limitations, giving you the flexibility to reach buyers from all corners.",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "User-Friendly Interface",
+        "description": "We've designed Bi3 with simplicity in mind. Our user-friendly interface ensures a smooth and intuitive experience, making selling your used items a breeze.",
+        "img": "/assets/images/product2.jpg"
+      },
+      {
+        "title": "Secure Transactions",
+        "description": "At Bi3, your safety and security are our top priorities. We've implemented robust measures to protect your personal information and ensure secure transactions for a worry-free selling experience.",
+        "img": "/assets/images/product1.jpg"
       }
     ]
   },
