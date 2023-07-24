@@ -4,7 +4,7 @@ import config from '../config/index.json';
 
 const Features = () => {
   const { features } = config;
-  const { title, subtitle, description, items: featuresList } = features;
+  const { title, subtitle, items: featuresList } = features;
   return (
     <div className={`py-12 bg-background`} id="features">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,24 +17,25 @@ const Features = () => {
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             {subtitle}
           </p>
-          <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          {/* <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
             {description}
-          </p>
+          </p> */}
         </div>
 
         <div className="mt-10">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
-            {featuresList.map((feature) => (
+            {featuresList.map((feature, index) => (
               <div key={feature.name} className="relative">
                 <dt>
                   <div
-                    className={`absolute flex items-center justify-center h-12 w-12 rounded-md bg-background text-tertiary border-primary border-4`}
+                    className={`absolute flex items-center justify-center  h-12 w-12 rounded-md bg-background text-tertiary border-primary border-2`}
                   >
-                    <img
+                    {/* <img
                       className={`inline-block h-6 w-6 rounded-full`}
                       src={feature.icon}
                       alt={feature.name}
-                    />
+                    /> */}
+                    <p className="text-primary text-2xl">{index + 1}</p>
                   </div>
                   <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
                     {feature.name}
