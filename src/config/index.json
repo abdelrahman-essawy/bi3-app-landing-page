@@ -1,7 +1,7 @@
 {
   "company": {
     "name": "Bi3 App",
-    "logo": "/assets/images/logo.png"
+    "logo": "/assets/images/logo2.png"
   },
   "navigation": [
     {
@@ -149,10 +149,6 @@
       {
         "name": "Features",
         "href": "#features"
-      },
-      {
-        "name": "About",
-        "href": "#about"
       }
     ],
     "socialMedia": {
